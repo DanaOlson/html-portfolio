@@ -1,6 +1,3 @@
-h1 {
-  color: white;
-}
 html {
   background-image: url('./assets/images/black-sand.png');
   background-repeat: no-repeat;
@@ -8,8 +5,19 @@ html {
   color: white;
 }
 
-.div{
-  display: block;
+header {
+  display: fixed;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.nav-link
+
+h1 {
+  color: white;
 }
 
 .footer {
