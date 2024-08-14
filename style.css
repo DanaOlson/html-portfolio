@@ -1,3 +1,8 @@
+* {
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+}
+
 html {
   background-image: url('./assets/images/black-sand.png');
   background-repeat: no-repeat;
@@ -7,21 +12,45 @@ html {
 
 header {
   display: fixed;
+  width: 100%;
 }
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   position: relative;
+  flex-direction: row;
 }
+
 .nav-link
+{
+  display: flex;
+  position: relative;
+  flex-basis: 200px;
+  font-size: 40px
+}
+
+.nav-link-list {
+  list-style: none;
+}
 
 h1 {
   color: white;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 .footer {
   text-align: center;
+}
+
+.links {
+  padding-bottom: 50px;
 }
 
 .social-icon > img {
